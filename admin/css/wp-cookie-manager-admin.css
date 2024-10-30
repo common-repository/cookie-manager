@@ -1,0 +1,109 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ #Wp_Cookie_Manager_settings section {
+    background-color: #ffffff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+ }
+
+ #Wp_Cookie_Manager_settings h2 {
+    border-bottom: 4px solid orange;
+ }
+
+ #Wp_Cookie_Manager_settings label {
+    font-weight: bold;
+    line-height: 30px;
+ }
+
+ #Wp_Cookie_Manager_settings input[type=text], 
+ #Wp_Cookie_Manager_settings input[type=submit],
+ #Wp_Cookie_Manager_settings button {
+    width: 100%;
+ }
+
+ #Wp_Cookie_Manager_settings textarea {
+     width:100%;
+     min-height: 100px;
+ }
+
+ #Wp_Cookie_Manager_settings .submit-container {
+     margin-right: 20px;
+ }
+
+ .wcm_settings input[type="text"],
+ .wcm_settings textarea {
+    width: 400px;
+ }
+
+.wcm-page #wpcontent, .wcm-page.wcm_page_wcm-admin #wpbody-content {
+   padding: 0;
+   overflow-x: hidden!important;
+   min-height: calc(100vh - 32px);
+}
+
+.wcm-page.wcm_page_wcm-admin #wpbody-content {
+   padding: 60px 20px;
+}
+
+.wcm-layout {
+   margin: 0;
+   padding: 0;
+}
+.wcm-layout__header {
+   background: #fff;
+   box-sizing: border-box;
+   padding: 0;
+   position: fixed;
+   width: calc(100% - 160px);
+   top: 32px;
+   z-index: 1001;
+}
+.wcm-layout__header .wcm-layout__header-wrapper {
+   display: flex;
+   align-items: center;
+   min-height: 60px;
+}
+.wcm-layout__header .wcm-layout__header-heading {
+   display: flex;
+   align-items: center;
+   padding: 0 0 0 40px;
+   flex: 1 auto;
+   
+   background: #fff;
+   font-weight: 600;
+   font-size: 14px;
+}
+
+.wrap.wcm_settings {
+   margin-top: 15px;
+}
+
+.wcm-layout__header {
+   box-shadow: 0 8px 16px 0 rgb(85 93 102 / 30%);
+}
+
+.wcm-admin-buttons {
+   display: flex;
+   align-items: center;
+}
+.wcm-admin-buttons .wcm_download_btn {
+   padding: 1.5em 0;
+   margin: 5px 0;
+   margin-top: 20px;
+   padding-top: 10px;
+   margin-left: 20px;
+}
+
+.wcm_pro_feature_container {
+   opacity: 0.4;
+}
+
+.wcm_pro_feature_container .wcm_pro_feature {
+   color: #2271b1;
+   font-weight: bold;
+}
+

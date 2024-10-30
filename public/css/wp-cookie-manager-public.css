@@ -1,0 +1,395 @@
+/*
+ *  COOKIES NOTICE BAR
+ */
+ #wp-cookie-manager-cookie-notice-container {
+    display: none;
+    /*border-top: 1px solid rgba(0,0,0,0.8);*/
+    box-shadow: 0 -2px 5px -5px #000;
+    background-color: rgba(255, 255, 255, 0.98);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+ }
+ #wp-cookie-manager-cookie-notice {
+    margin:20px 45px 20px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+ }
+ #wp-cookie-manager-cookie-notice p {
+    font-size:16px;
+    margin:0;
+ }
+
+ #wp-cookie-manager-open-cookie-settings, #wp-cookie-manager-dismiss {
+     font-size: 16px;
+     color:rgba(0,0,0,0.4);
+     background-color: transparent;
+     border: none;
+     padding: 10px;
+     cursor: pointer;
+ }
+
+ #wp-cookie-manager-open-cookie-settings:hover, 
+ #wp-cookie-manager-dismiss:hover {
+    opacity: 0.8;
+}
+
+ #wp-cookie-manager-cookie-accept-notice,
+ #wp-cookie-manager-cookie-settings-popup-buttons-accept-all {
+    font-size:16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #212529;
+    /*border: 1px solid #000000;*/
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10px;
+ }
+
+ #wp-cookie-manager-cookie-accept-notice:hover, 
+ #wp-cookie-manager-cookie-close-notice:hover,
+ #wp-cookie-manager-cookie-settings-popup-buttons-accept-all:hover {
+    opacity: 0.8;
+    transition: all 0.5s;
+    cursor: pointer;
+    /*text-decoration: underline;*/
+    /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+ }
+
+ #wp-cookie-manager-cookie-close-notice {
+    font-size:16px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    /*border: 1px solid #000000;*/
+    padding: 10px;
+ }
+
+
+/*
+ * COOKIES SETTINGS
+ */
+#wp-cookie-manager-cookie-settings-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1111111;
+}
+#pop-up {
+    background-color: #ffffff;
+    width: 800px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left:-400px;
+    padding: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-radius:10px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#wp-cookie-manager-cookie-settings-popup-title {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+}
+
+#wp-cookie-manager-cookie-settings-popup-content .desktop {
+    display: flex;
+}
+
+#cookie-settings-section-text__essential,
+#cookie-settings-section-text__analytics,
+#cookie-settings-section-text__external,
+#cookie-settings-section-text__privacy_policy {
+    display: none;
+}
+
+
+#wp-cookie-manager-cookie-settings-popup-buttons {
+    border-top: 1px solid #e1e1e1;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#wp-cookie-manager-cookie-settings-popup-buttons button {
+   margin-left: 15px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+#wp-cookie-manager-cookie-settings-popup-buttons-save {
+    background: transparent;
+    border: none;
+    color: rgba(0,0,0,0.4);
+}
+
+#wp-cookie-manager-cookie-settings-popup-buttons-save:hover {
+    opacity:0.8;
+}
+
+#cookie-settings-section-selector {
+  width: 200px;
+}
+
+
+#cookie-settings-section-selector button {
+    margin: 0;
+    padding: 5px;
+    padding-left: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 16px;
+    width: 200px;
+    text-align: start;
+    color: #cacaca;
+    cursor: pointer;
+}
+
+#cookie-settings-section-selector button.active {
+    color: #000000;
+    font-weight: bolder;
+}
+
+#cookie-settings-section {
+    font-size: 16px;
+    padding: 30px;
+    box-shadow: -8px 0px 20px -10px rgba(0,0,0,0.2);
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+#cookie-settings-section .hidden-data {
+    display: none;
+}
+
+#close-pop-up {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: transparent;
+    border:none;
+}
+
+#close-pop-up:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#close-pop-up span{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 1000%;
+}
+@media (max-width: 800px){
+    #pop-up {
+        left: 0;
+        width: 100%;
+        margin: 0;
+        bottom: 0;
+        overflow-y: scroll;
+    }
+}
+
+#cookie-settings-section .switch,
+.cookie-settings-section-mobile .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+  
+#cookie-settings-section .switch input,
+.cookie-settings-section-mobile .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+#cookie-settings-section .slider,
+.cookie-settings-section-mobile .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ebebeb;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+#cookie-settings-section .slider:before,
+.cookie-settings-section-mobile .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+#cookie-settings-section input:checked + .slider,
+.cookie-settings-section-mobile input:checked + .slider {
+    background-color: #4CAF50;
+}
+
+#cookie-settings-section input:disabled + .slider,
+.cookie-settings-section-mobile input:disabled + .slider {
+    background-color: #ebebeb;
+}
+  
+#cookie-settings-section input:focus + .slider,
+.cookie-settings-section-mobile input:focus + .slider {
+    box-shadow: 0 0 1px #cccccc;
+}
+  
+#cookie-settings-section input:checked + .slider:before,
+.cookie-settings-section-mobile input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+/* Rounded sliders */
+#cookie-settings-section .slider.round,
+.cookie-settings-section-mobile .slider.round {
+    border-radius: 24px;
+}
+  
+#cookie-settings-section .slider.round:before,
+.cookie-settings-section-mobile .slider.round:before {
+    border-radius: 50%;
+}
+
+#wp-cookie-manager-cookie-settings-popup-switch-essential, 
+#wp-cookie-manager-cookie-settings-popup-switch-analytics, 
+#wp-cookie-manager-cookie-settings-popup-switch-external,
+#wp-cookie-manager-cookie-settings-popup-switch-essential-mobile, 
+#wp-cookie-manager-cookie-settings-popup-switch-analytics-mobile, 
+#wp-cookie-manager-cookie-settings-popup-switch-external-mobile {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid #F5F5F5;
+    border-top: 1px solid #F5F5F5;
+    padding: 10px;
+    
+}
+
+#wp-cookie-manager-cookie-settings-popup-switch-essential.wcm-flex,
+#wp-cookie-manager-cookie-settings-popup-switch-analytics.wcm-flex,
+#wp-cookie-manager-cookie-settings-popup-switch-external.wcm-flex,
+#wp-cookie-manager-cookie-settings-popup-switch-essential-mobile.wcm-flex, 
+#wp-cookie-manager-cookie-settings-popup-switch-analytics-mobile.wcm-flex, 
+#wp-cookie-manager-cookie-settings-popup-switch-external-mobile.wcm-flex {
+    display: flex;
+}
+
+#wp-cookie-manager-cookie-settings-popup-switch-essential label,
+#wp-cookie-manager-cookie-settings-popup-switch-analytics label,
+#wp-cookie-manager-cookie-settings-popup-switch-external label,
+#wp-cookie-manager-cookie-settings-popup-switch-essential-mobile label, 
+#wp-cookie-manager-cookie-settings-popup-switch-analytics-mobile label, 
+#wp-cookie-manager-cookie-settings-popup-switch-external-mobile label {
+    margin: 0;
+}
+
+/* RESPONSIVE */
+
+#wp-cookie-manager-cookie-settings-popup .mobile {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    #wp-cookie-manager-cookie-notice {
+        flex-direction: column;
+        text-align: center;
+    }
+    #wp-cookie-manager-cookie-notice-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 653px) {
+    #wp-cookie-manager-cookie-settings-popup .desktop {
+        display: none;        
+    }
+
+    #wp-cookie-manager-cookie-settings-popup  {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    #wp-cookie-manager-cookie-settings-popup #pop-up {
+        top: 10%;
+        padding: 25px;
+        max-height: 80vh;
+    }
+    
+    #wp-cookie-manager-cookie-settings-popup-title {
+        padding-bottom: 25px;
+    }
+
+    #wp-cookie-manager-cookie-settings-popup .mobile {
+        display: block;        
+    }
+    #wp-cookie-manager-cookie-settings-popup .wcm-mobile-tab {
+        padding: 20px 16px;
+        font-size: 14px;
+        font-weight: 700;
+        border: 1px solid #f8f8f8;
+    }
+
+    #wp-cookie-manager-cookie-settings-popup .active .wcm-mobile-tab  {
+        color: #ffffff;
+        background-color: #212529;
+    }
+
+    #wp-cookie-manager-cookie-settings-popup .wcm-mobile-settings-section {
+        display: none;
+        padding: 15px 30px;
+        background-color: #f8f8f8;
+        left: 0;
+    }
+    
+    #wp-cookie-manager-cookie-settings-popup .active .wcm-mobile-settings-section {
+        display: block;
+    }
+
+    #wp-cookie-manager-cookie-settings-popup-buttons {
+        padding: 0px;
+        padding-top: 25px;
+    }
+
+    .wcm-mobile-settings-section .switch input[type="checkbox"] {
+        display: none;
+    }
+    
+}
+
+/* END RESPONSIVE */

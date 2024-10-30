@@ -1,0 +1,9 @@
+:root {
+    --general_bg_color: #ffffff;
+    --general_primary_text_color: #28303D;
+    --general_secondary_text_color: #adaead;
+    --aa_button_bg_color: #212529;
+    --aa_button_text_color: #ffffff;
+    --settings_button_bg_color:#ffffff;
+    --settings_button_text_color:#212529;
+}

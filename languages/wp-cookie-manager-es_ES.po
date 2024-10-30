@@ -1,0 +1,497 @@
+# Copyright (C) 2021 by the contributors
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress 5.9-alpha-51391\n"
+"Report-Msgid-Bugs-To: https://core.trac.wordpress.org/\n"
+"POT-Creation-Date: 2021-07-15 15:28+0200\n"
+"PO-Revision-Date: 2021-07-15 15:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_html__;esc_html;esc_html_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-wp-cookie-manager-admin.php:101
+#: includes/class-wp-cookie-manager-default-settings.php:70
+msgid "Cookie Settings"
+msgstr "Configuración de Cookies"
+
+#: admin/class-wp-cookie-manager-admin.php:150
+#: admin/partials/wp-cookie-manager-admin-appearance.php:36
+msgid "General"
+msgstr "General"
+
+#: admin/class-wp-cookie-manager-admin.php:151
+msgid "Texts"
+msgstr "Textos"
+
+#: admin/class-wp-cookie-manager-admin.php:152
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: admin/class-wp-cookie-manager-admin.php:168
+msgid "Developed by"
+msgstr "Desarrollado por"
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:31
+msgid "Appearance Settings"
+msgstr "Configuración de estilos"
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:33
+msgid ""
+"Here you can configure the appeareance of the public part of the WP Cookie "
+"Manager plugin."
+msgstr ""
+"Aquí puedes configurar los estilos de la parte publica del plugin WP Cookie "
+"Manager."
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:41
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:49
+msgid "Primary Text color"
+msgstr "Color de texto primario"
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:57
+msgid "Secondary Text color"
+msgstr "Color de texto secundario"
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:65
+msgid "Accept All Button"
+msgstr "Botón aceptar todas"
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:70
+#: admin/partials/wp-cookie-manager-admin-appearance.php:92
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:78
+#: admin/partials/wp-cookie-manager-admin-appearance.php:104
+msgid "Text color"
+msgstr "Color de texto"
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:87
+msgid "Cookie Settings and Save Cookie Settings buttons"
+msgstr "Botones configurar cookies y guardar ajustes de cookies"
+
+#: admin/partials/wp-cookie-manager-admin-appearance.php:98
+#: admin/partials/wp-cookie-manager-admin-appearance.php:110
+#: admin/partials/wp-cookie-manager-admin-general.php:79
+#: admin/partials/wp-cookie-manager-admin-general.php:105
+#: admin/partials/wp-cookie-manager-admin-general.php:118
+#: admin/partials/wp-cookie-manager-admin-general.php:131
+#: admin/partials/wp-cookie-manager-admin-general.php:144
+#: admin/partials/wp-cookie-manager-admin-general.php:162
+#: admin/partials/wp-cookie-manager-admin-texts.php:61
+#: admin/partials/wp-cookie-manager-admin-texts.php:77
+#: admin/partials/wp-cookie-manager-admin-texts.php:100
+#: admin/partials/wp-cookie-manager-admin-texts.php:116
+#: admin/partials/wp-cookie-manager-admin-texts.php:139
+#: admin/partials/wp-cookie-manager-admin-texts.php:155
+#: admin/partials/wp-cookie-manager-admin-texts.php:178
+#: admin/partials/wp-cookie-manager-admin-texts.php:194
+#: admin/partials/wp-cookie-manager-admin-texts.php:217
+#: admin/partials/wp-cookie-manager-admin-texts.php:233
+#: admin/partials/wp-cookie-manager-admin-texts.php:251
+#: admin/partials/wp-cookie-manager-admin-texts.php:269
+#: admin/partials/wp-cookie-manager-admin-texts.php:307
+msgid "This is a PRO feature"
+msgstr "Ésta es una función PRO"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:23
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:25
+msgid ""
+"Here you can configure the general settings of the WP Cookie Manager plugin."
+msgstr ""
+"Aquí puedes configurar los ajustes generales del plugin WP Cookie Manager."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:28
+#: admin/partials/wp-cookie-manager-admin-general.php:32
+msgid "License"
+msgstr "Licencia"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:35
+msgid "Activate license"
+msgstr "Activar licencia"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:46
+msgid "Your license is valid, enjoy PRO features."
+msgstr "Tu licencia es válida, disfruta de las funcionalidades PRO."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:48
+msgid ""
+"Provide a valid license to get the PRO features. You can get one <a target="
+"\"blank\" href=\"https://www.deviware.com\">here</a>."
+msgstr ""
+"Introduce un número de licencia válido para disfrutar de las funcionalidades "
+"PRO. Puedes obtener una  <a target=“blank” href=“https://www.deviware."
+"com”>aquí</a>."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:56
+msgid "Logs"
+msgstr "Logs"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:60
+msgid "Activate / Deactivate"
+msgstr "Activar / Desactivar"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:64
+msgid "Activate log"
+msgstr "Activar log"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:74
+msgid "Generate a log file with accepted Cookies."
+msgstr "Generar un registro con las cookies aceptadas."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:76
+msgid "This option saves into a CSV formatted log file all the user consents."
+msgstr ""
+"Ésta opción guarda un log en formato CSV de todos los consentimientos de los "
+"usuarios."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:85
+#: admin/partials/wp-cookie-manager-admin-texts.php:122
+#: includes/class-wp-cookie-manager-default-settings.php:58
+msgid "Analytics Cookies"
+msgstr "Cookies de analítica"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:86
+msgid ""
+"Keep in mind that our plugin will not block Google Analytics Cookies if you "
+"haven't provided your Google Analytics ID and script in the following "
+"fields. Also you have to remove all other Google Analytics or TAG Manager "
+"implementations."
+msgstr ""
+"Ten en cuenta que nuestro plugin no bloqueará las Cookies de Google "
+"Analytics a menos que hayas puesto tu ID y Script en los siguientes campos. "
+"También tendrás que eliminar tus antiguas integraciones de Google Analytics "
+"o TAG Manager."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:91
+msgid "Google Analytics ID"
+msgstr "ID de Google Analytics"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:107
+msgid ""
+"It's used in case user doesn't accept analytics cookies to set the consent "
+"mode."
+msgstr ""
+"Se utiliza en caso de que el usuario no acepte las Cookies de analítica para "
+"activar el modo consentimiento."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:112
+msgid "Analytics Code (Head)"
+msgstr "Cookies de analítica (Head)"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:120
+msgid ""
+"The Analytics code you want to use. This code will be placed in the head "
+"section."
+msgstr ""
+"El código de Analytics que quieres usar. Éste código se añadirá a la sección "
+"“Head”."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:125
+msgid "Analytics Code (Body)"
+msgstr "Cookies de analítica (Body)"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:133
+msgid ""
+"The Analytics code you want to use. This code will be placed immediately "
+"after body opening tag."
+msgstr ""
+"El código / script de Analytics que quieres usar. Éste código se insertará "
+"justo después del tag de apertura “Body”."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:138
+#: admin/partials/wp-cookie-manager-admin-general.php:156
+msgid "Cookie names to block (separated by comma)"
+msgstr "Nombres de cookies a bloquear (separados por coma)"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:146
+msgid ""
+"This is not for Google Analytics or TAG Manager, you should only use it for "
+"other analytics cookies."
+msgstr ""
+"Éste campo no es para Google Analytics o TAG Manager, debes utilizarlo "
+"solamente para otras herramientas de analítica."
+
+#: admin/partials/wp-cookie-manager-admin-general.php:151
+msgid "Other Cookies"
+msgstr "Otras cookies"
+
+#: admin/partials/wp-cookie-manager-admin-general.php:179
+msgid "Download Cookie Consents"
+msgstr "Descargar registro de consentimientos"
+
+#: admin/partials/wp-cookie-manager-admin-header.php:18
+#: admin/partials/wp-cookie-manager-admin-header.php:27
+msgid " - General"
+msgstr " - General"
+
+#: admin/partials/wp-cookie-manager-admin-header.php:21
+msgid " - Texts"
+msgstr " - Textos"
+
+#: admin/partials/wp-cookie-manager-admin-header.php:24
+msgid " - Appearance"
+msgstr " - Apariencia"
+
+#: admin/partials/wp-cookie-manager-admin-header.php:37
+#, php-format
+msgid "WP Cookie Manager %s"
+msgstr "WP Cookie Manager %s"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:22
+msgid "Text Settings"
+msgstr "Ajustes de los textos"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:24
+msgid ""
+"Here you can change most of the texts shown in the public part of the WP "
+"Cookie Manager plugin."
+msgstr ""
+"Aquí puedes cambiar la mayoría de los textos mostrados en la parte pública "
+"del plugin WP Cookie Manager."
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:26
+msgid "Cookie Notice"
+msgstr "Aviso de cookies"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:31
+msgid "Text"
+msgstr "Texto"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:44
+msgid "How we use the cookies"
+msgstr "Como usamos las cookies"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:49
+#: admin/partials/wp-cookie-manager-admin-texts.php:88
+#: admin/partials/wp-cookie-manager-admin-texts.php:127
+#: admin/partials/wp-cookie-manager-admin-texts.php:166
+#: admin/partials/wp-cookie-manager-admin-texts.php:205
+msgid "Title"
+msgstr "Título"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:67
+#: admin/partials/wp-cookie-manager-admin-texts.php:106
+#: admin/partials/wp-cookie-manager-admin-texts.php:145
+#: admin/partials/wp-cookie-manager-admin-texts.php:184
+msgid "Description"
+msgstr "Descripción"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:83
+msgid "Essential Cookies"
+msgstr "Cookies esenciales"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:161
+msgid "External Cookies"
+msgstr "Cookies externas"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:200
+#: includes/class-wp-cookie-manager-default-settings.php:65
+#: includes/class-wp-cookie-manager-default-settings.php:67
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:223
+msgid "Legal text"
+msgstr "Texto legal"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:239
+msgid "Link title"
+msgstr "Título del link"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:257
+msgid "URL"
+msgstr "URL"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:265
+msgid "https://example.com/example"
+msgstr "https://ejemplo.com/ejemplo"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:276
+msgid "Buttons"
+msgstr "Botones"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:281
+msgid "Accept all button"
+msgstr "Aceptar todas"
+
+#: admin/partials/wp-cookie-manager-admin-texts.php:295
+msgid "Settings button"
+msgstr "Botón de ajustes"
+
+#: includes/class-wp-cookie-manager-default-settings.php:53
+msgid ""
+"This site uses cookies. By continuing to browse the site, you are agreeing "
+"to our use of cookies."
+msgstr ""
+"Este sitio utiliza cookies. Si continúa navegando por el sitio, acepta "
+"nuestro uso de cookies."
+
+#: includes/class-wp-cookie-manager-default-settings.php:54
+msgid "How we use cookies"
+msgstr "Como usamos las cookies"
+
+#: includes/class-wp-cookie-manager-default-settings.php:55
+msgid ""
+"We may request cookies to be set on your device. We use cookies to let us "
+"know when you visit our websites, how you interact with us, to enrich your "
+"user experience, and to customize your relationship with our website.\n"
+"\n"
+"Click on the different category headings to find out more. You can also "
+"change some of your preferences. Note that blocking some types of cookies "
+"may impact your experience on our websites and the services we are able to "
+"offer."
+msgstr ""
+"Podemos solicitar que se establezcan cookies en su dispositivo. Utilizamos "
+"cookies para informarnos cuando visita nuestros sitios web, cómo interactúa "
+"con nosotros, para enriquecer su experiencia de usuario y para personalizar "
+"su relación con nuestro sitio web.\n"
+"\n"
+"Haga clic en los títulos de las diferentes categorías para obtener más "
+"información. También puede cambiar algunas de sus preferencias. Tenga en "
+"cuenta que bloquear algunos tipos de cookies puede afectar su experiencia en "
+"nuestros sitios web y los servicios que podemos ofrecer."
+
+#: includes/class-wp-cookie-manager-default-settings.php:56
+msgid "Essential Website Cookies"
+msgstr "Cookies esenciales del sitio web"
+
+#: includes/class-wp-cookie-manager-default-settings.php:57
+msgid ""
+"These cookies are strictly necessary to provide you with services available "
+"through our website and to use some of its features.\n"
+"\n"
+"Because these cookies are strictly necessary to deliver the website, "
+"refuseing them will have impact how our site functions. You always can block "
+"or delete cookies by changing your browser settings and force blocking all "
+"cookies on this website. But this will always prompt you to accept/refuse "
+"cookies when revisiting our site.\n"
+"\n"
+"We fully respect if you want to refuse cookies but to avoid asking you again "
+"and again kindly allow us to store a cookie for that. You are free to opt "
+"out any time or opt in for other cookies to get a better experience. If you "
+"refuse cookies we will remove all set cookies in our domain.\n"
+"\n"
+"We provide you with a list of stored cookies on your computer in our domain "
+"so you can check what we stored. Due to security reasons we are not able to "
+"show or modify cookies from other domains. You can check these in your "
+"browser security settings."
+msgstr ""
+"Estas cookies son estrictamente necesarias para brindarle los servicios "
+"disponibles a través de nuestro sitio web y para utilizar algunas de sus "
+"funciones. Debido a que estas cookies son estrictamente necesarias para "
+"entregar el sitio web, rechazarlas tendrá un impacto en el funcionamiento de "
+"nuestro sitio. Siempre puede bloquear o eliminar las cookies cambiando la "
+"configuración de su navegador y forzando el bloqueo de todas las cookies en "
+"este sitio web. Pero esto siempre le pedirá que acepte / rechace las cookies "
+"cuando vuelva a visitar nuestro sitio. Respetamos completamente si desea "
+"rechazar las cookies, pero para evitar preguntarle una y otra vez, "
+"permítanos almacenar una cookie para eso. Puede optar por no participar en "
+"cualquier momento u optar por otras cookies para obtener una mejor "
+"experiencia. Si rechaza las cookies, eliminaremos todas las cookies "
+"establecidas en nuestro dominio. Le proporcionamos una lista de cookies "
+"almacenadas en su computadora en nuestro dominio para que pueda verificar lo "
+"que almacenamos. Por razones de seguridad, no podemos mostrar ni modificar "
+"cookies de otros dominios. Puede comprobarlos en la configuración de "
+"seguridad de su navegador."
+
+#: includes/class-wp-cookie-manager-default-settings.php:59
+msgid ""
+"These cookies collect information that is used either in aggregate form to "
+"help us understand how our website is being used or how effective our "
+"marketing campaigns are, or to help us customize our website and application "
+"for you in order to enhance your experience.<br><br>If you do not want that "
+"we track your visit to our site you can disable tracking in your browser "
+"here:"
+msgstr ""
+"Estas cookies recopilan información que se utiliza en forma agregada para "
+"ayudarnos a comprender cómo se usa nuestro sitio web o qué tan efectivas son "
+"nuestras campañas de marketing, o para ayudarnos a personalizar nuestro "
+"sitio web y nuestra aplicación para mejorar su experiencia. Si no desea que "
+"rastreemos su visita a nuestro sitio, puede deshabilitar el rastreo en su "
+"navegador aquí:"
+
+#: includes/class-wp-cookie-manager-default-settings.php:60
+msgid "UA-XXXXX-Y"
+msgstr "UA-XXXXX-Y"
+
+#: includes/class-wp-cookie-manager-default-settings.php:62
+msgid "Other external services"
+msgstr "Otros servicios externos"
+
+#: includes/class-wp-cookie-manager-default-settings.php:63
+msgid ""
+"We also use different external services like Google Webfonts, Google Maps, "
+"and external Video providers. Since these providers may collect personal "
+"data like your IP address we allow you to block them here. Please be aware "
+"that this might heavily reduce the functionality and appearance of our site. "
+"Changes will take effect once you reload the page."
+msgstr ""
+"También utilizamos diferentes servicios externos como Google Webfonts, "
+"Google Maps y proveedores de video externos. Dado que estos proveedores "
+"pueden recopilar datos personales como su dirección IP, le permitimos "
+"bloquearlos aquí. Tenga en cuenta que esto podría reducir considerablemente "
+"la funcionalidad y la apariencia de nuestro sitio. Los cambios entrarán en "
+"vigor una vez que vuelva a cargar la página."
+
+#: includes/class-wp-cookie-manager-default-settings.php:66
+msgid ""
+"You can read about our cookies and privacy settings in detail on our Privacy "
+"Policy Page."
+msgstr ""
+"Puede leer sobre nuestras cookies y la configuración de privacidad en "
+"detalle en nuestra Página de Política de Privacidad."
+
+#: includes/class-wp-cookie-manager-default-settings.php:69
+msgid "Accept all"
+msgstr "Aceptar todas"
+
+#: public/partials/wp-cookie-manager-cookie-notice.php:55
+msgid "Dismiss notice"
+msgstr "Cerrar aviso"
+
+#: public/partials/wp-cookie-manager-user-settings.php:20
+msgid "Cookie settings"
+msgstr "Configuración de Cookies"
+
+#: public/partials/wp-cookie-manager-user-settings.php:56
+#: public/partials/wp-cookie-manager-user-settings.php:63
+#: public/partials/wp-cookie-manager-user-settings.php:70
+msgid "Active"
+msgstr "Activas"
+
+#: public/partials/wp-cookie-manager-user-settings.php:79
+msgid "Save settings"
+msgstr "Guardar ajustes"
+
+#: public/partials/wp-cookie-manager-user-settings.php:80
+msgid "Accept all cookies"
+msgstr "Aceptar todas las cookies"
+
+#~ msgid ""
+#~ "This plugin can't always block de Google Analytics Cookies if you specify "
+#~ "it's names, to ensure that it works correctly provide your Google "
+#~ "Analytics ID and our plugin will configure it automatically. If you do it "
+#~ "this way, you'll need to remove previows Analytics configuration and it "
+#~ "wont be necessary to specify the GA Cookie Names."
+#~ msgstr ""
+#~ "Éste plugin no siempre puede bloquear las cookies de Google Analytics "
+#~ "cuándo especificas sus nombres. Para asegurar su correcto funcionamiento "
+#~ "añade tu ID de Google Analytics y nuestro plugin lo configurará "
+#~ "automáticamente. Recuerda eliminar otras integraciones de Analytics si "
+#~ "utilizas éste modo."
